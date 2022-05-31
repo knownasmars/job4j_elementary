@@ -3,6 +3,7 @@ package ru.job4j.loop;
 import org.junit.Assert;
 import org.junit.Test;
 import ru.job4j.calculator.Calculator;
+import ru.job4j.converter.loop.Factorial;
 
 public class FactorialTest {
     @Test

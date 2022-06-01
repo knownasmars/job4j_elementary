@@ -2,6 +2,7 @@ package ru.job4j.loop;
 
 import org.junit.Assert;
 import org.junit.Test;
+import ru.job4j.converter.loop.Counter;
 
 public class CounterTest {
     @Test

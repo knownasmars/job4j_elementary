@@ -1,8 +1,8 @@
 package ru.job4j.loop;
-
+import ru.job4j.loop.Factorial;
 import org.junit.Assert;
 import org.junit.Test;
-import ru.job4j.loop.Factorial;
+
 
 public class FactorialTest {
     @Test

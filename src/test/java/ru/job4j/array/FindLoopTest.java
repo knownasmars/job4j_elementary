@@ -32,6 +32,7 @@ public class FindLoopTest {
         int finish = 3;
         int result = FindLoop.indexInRange(data, el, start, finish);
         int expected = -1;
+        Assert.assertEquals(expected, result);
     }
 
     @Test
@@ -42,5 +43,6 @@ public class FindLoopTest {
         int finish = 2;
         int result = FindLoop.indexInRange(data, el, start, finish);
         int expected = 2;
+        Assert.assertEquals(expected, result);
     }
 }

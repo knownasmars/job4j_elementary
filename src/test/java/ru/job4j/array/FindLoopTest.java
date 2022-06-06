@@ -24,10 +24,10 @@ public class FindLoopTest {
 
     @Test
     public void whenArrayHas3Then4() {
-    int[] data = new int[] {0, 15, 22, 12, 3, 10};
-    int el = 3;
-    int result = FindLoop.indexOf(data, el);
-    int expected = 4;
-    Assert.assertEquals(expected, result);
+        int[] data = new int[] {0, 15, 22, 12, 3, 10};
+        int el = 3;
+        int result = FindLoop.indexOf(data, el);
+        int expected = 4;
+        Assert.assertEquals(expected, result);
     }
 }

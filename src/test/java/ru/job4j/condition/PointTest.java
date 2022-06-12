@@ -32,4 +32,13 @@ public class PointTest {
         double out = a.distance(b);
         Assert.assertEquals(expected, out, 0.01);
     }
+
+    @Test
+    public void whenX12Y10Z10X22Y24Z23Then5() {
+        double expected = 5;
+        Point a = new Point(2, 0, 0);
+        Point b = new Point(2, 4, 3);
+        double out = a.distance3d(b);
+        Assert.assertEquals(expected, out, 0.01);
+    }
 }
